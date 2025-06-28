@@ -3,9 +3,8 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Naufal Ramadhan",
+		"email": "naufalramadhang@gmail.com"
 	},
 	"license": "MIT",
 	"private": true,
@@ -23,12 +22,12 @@
 		"react-ga4": "^2.1.0",
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
-		"react-scripts": "5.0.1",
+		"react-scripts": "5.0.1", 
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "node server.js",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"

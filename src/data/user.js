@@ -1,82 +1,58 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Reactfolio by Naufal Ramadhan",
+		name: "Naufal Ramadhan",
+		email: "naufalramadhang@gmail.com",
+		logo: "../logo.jpg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
+		github: "https://github.com/naufallraaa",
+		linkedin: "https://www.linkedin.com/in/naufal-ramadhan-0a084b270",
+		instagram: "https://instagram.com/naufallraaa",
 		facebook: "https://facebook.com/",
+		whatsapp: "https://wa.me/6285155224364",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Frontend Developer and Backend Developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I’m a web developer passionate about building clean and efficient web applications. As a cohort member of the Coding Camp by DBS Foundation, I had the opportunity to sharpen my skills through hands-on projects and collaborative learning. I enjoy both frontend and backend development, and I'm always eager to take on new challenges.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Naufal Ramadhan I live in Indonesia, West Java",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"As a Informatic Engineering student, I’ve worked on various web development projects, both independently and as part of a team. These projects range from personal experiments and learning exercises to collaborative applications built during coding camps and academic programs. Many of these projects are open-source and available for others to explore, learn from, or contribute to. I take pride in writing clean, maintainable code and continuously seeking ways to improve both technically and creatively. I'm always open to feedback and collaboration, as I believe that working with others, sharing ideas, and learning from different perspectives are some of the best ways to grow as a developer.",
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Skinaria - Deteksi Dini Masalah Kulit Berbasis Aplikasi Web",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			"Developed the backend of an image prediction application using TensorFlow.js and Express.js. The backend was designed to accept image input from the frontend, run a JavaScript-based machine learning model to generate predictions, and then store the predicted results and countermeasures into a PostgreSQL database. The project also involved building a REST API and deploying the backend using Railway to ensure seamless integration and online accessibility.",			
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://skinaria-apps.vercel.app/",
 		},
 
 		{
-			title: "Project 2",
+			title: "E-Commerce Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			"This is a Single Page Application (SPA) e-commerce website built using Vue.js. It features product listings, detailed product pages, and a user-friendly interface designed to simulate a modern online store. The application emphasizes component-based architecture, state management, and dynamic routing for a seamless shopping experience. This project was created as part of my frontend development practice, focusing on building a structured and interactive web application using Vue 3.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/naufallraaa/e-commerce",
 		},
 
 		{
-			title: "Project 3",
+			title: "Portofolio Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"This is a personal portfolio website that I designed and built as a computer science student to showcase my web development projects, skills, and learning journey. The website is built using React.js and Tailwind CSS, and it features a responsive design with sections for About Me, Projects, and Contact. It represents my ability to build modern, component-based web applications using frontend technologies.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/naufallraaa/portofolio-react",
 		},
 	],
 };
